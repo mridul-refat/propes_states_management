@@ -26,7 +26,7 @@ const Scoreboard = () => {
 
 
     return (
-        <div className='rounded-xl border-b-4 border-amber-300 mx-10 my-20 py-10 bg-amber-200'>
+        <div className='rounded-xl border-b-7 border-amber-100 mx-10 my-20 py-10 bg-amber-200'>
             <h1 className='text-6xl font-extrabold text-center'>Score: {score} </h1>
             <div className='flex justify-center gap-10 m-30'>
                 <button onClick={handleSixRuns} className='px-8 py-7 bg-green-500 rounded-xl font-bold text-6xl text-white'>6</button>
